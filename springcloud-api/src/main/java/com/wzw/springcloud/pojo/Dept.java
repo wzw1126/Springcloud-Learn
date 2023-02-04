@@ -21,6 +21,9 @@ public class Dept implements Serializable {
     public Dept(String dname){
         this.dname = dname;
     }
+
+
+    private String testTwo;
     /*
         链式写法：
             Dept dept = new Dept();
